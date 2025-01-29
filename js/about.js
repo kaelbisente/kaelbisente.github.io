@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
 //  typing effect
 
 var typingEffect = new Typed(".typed-text", {
-strings: ['Web Developer', 'Web Designer', 'Tropa ni CJ'],
+strings: ['Web Developer', 'Web Designer'],
 loop: true,
 typeSpeed: 100,
 backSpeed: 80,
