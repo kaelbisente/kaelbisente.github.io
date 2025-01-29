@@ -44,18 +44,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-
-//  typing effect
-
-var typingEffect = new Typed(".typed-text", {
-strings: ['Web Developer', 'Web Designer'],
-loop: true,
-typeSpeed: 100,
-backSpeed: 80,
-backDelay: 2000
-
-})
-
 // scroll animation
 
 const sr = ScrollReveal({
