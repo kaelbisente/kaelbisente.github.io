@@ -37,9 +37,6 @@ a {
     background: #bbb;
 }
 
-
-
-
 /* .navbar-header .navbar {
     z-index: 1;
 } */
@@ -121,7 +118,6 @@ a {
 
 .button {
     display: flex;
-    height: 50px;
 }
 
 .button .btn-primary {
@@ -129,6 +125,7 @@ a {
     background-color: #679289;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
     transition: all 0.3s ease-in-out;
+        height: 50px;
 }
 
 .button .btn-primary:hover {
