@@ -28,7 +28,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // sarado burger kapag na click yung link
-
 document.addEventListener('DOMContentLoaded', function () {
     const navbarCollapse = document.getElementById('navbarNav');
     const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
@@ -43,12 +42,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-
-
 //  typing effect
-
 var typingEffect = new Typed(".typed-text", {
-strings: ['Web Developer', 'Web Designer'],
+strings: ['Web Developer', 'Frontend Dev', 'Backend Dev'],
 loop: true,
 typeSpeed: 100,
 backSpeed: 80,
@@ -88,7 +84,6 @@ const srLeft = ScrollReveal({
     reset: true
 });
 
-
 srLeft.reveal('.about-intro', {delay: 100})
 srLeft.reveal('.contact-info', {delay: 200})
 
@@ -103,14 +98,7 @@ srLeft.reveal('.infoText', {delay: 200})
 srLeft.reveal('.projectBtn', {delay: 300})
 srLeft.reveal('.spotifyContainer', {delay: 300})
 
-
-
-
-
-
-
 // kapag naclick mo yung navlink mag scroll sa section
-
 const sections = document.querySelectorAll('section[id]');
 const navLinks = document.querySelectorAll('.navbar-nav a');
 
